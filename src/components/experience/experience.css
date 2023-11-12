@@ -1,0 +1,103 @@
+.experience {
+  width: 100%;
+  background-color: #000;
+  color: #a7bcb9;
+}
+
+.experience-container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.experience-item {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 80px;
+  padding-top: 40px;
+}
+
+.left-box {
+  width: 50%;
+  line-height: 1.5;
+  text-align: right;
+  padding-right: 40px;
+}
+
+.left-box h3 {
+  padding-bottom: 20px;
+  color: #14ffec;
+}
+
+.right-box {
+  width: 50%;
+  position: relative;
+  padding-left: 40px;
+}
+
+.year {
+  padding-top: 20px;
+}
+
+.location {
+  padding-bottom: 10px;
+  color: #0d7377;
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.left-box svg {
+  color: #0d7377;
+}
+
+.right-box img {
+  width: 150px;
+  height: 150px;
+  margin-top: 80px;
+}
+
+@media (max-width: 700px){
+  .experience h2 {
+      width: 200px;
+      display: block;
+      margin: 0 auto;
+      line-height: 1.5;
+  }
+  .experience-container {
+    width: 90%;
+  }
+  .experience-item {
+    display: block;
+    padding: 0 10px;
+    padding-top: 40px;
+  }
+  .left-box {
+    width: 100%;
+    text-align: center;
+    padding-right: 0;
+  }
+  .right-box {
+    width: 100%;
+    text-align: center;
+    padding-left: 0;
+  }
+  .right-box p {
+    color: #f8da5b;
+  }
+  .right-box img {
+    margin-top: 20px;
+  }
+}
+
+
+@media (min-width: 701px) and (max-width: 1023px){
+  .experience-container {
+    width: 70%;
+  }
+}
+
+@media (min-width: 1024px){
+  .experience-container {
+    width: 80%;
+  }
+}

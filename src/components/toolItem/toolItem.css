@@ -1,0 +1,41 @@
+.toolItem {
+    width: 200px;
+    align-items: center;
+    background: #14ffec;
+    border-radius: 8px;
+    display: flex;
+    flex: 0 1 18%;
+    height: 60px;
+    justify-content: space-evenly;
+    margin: 1%;
+}
+
+.toolItem svg {
+    font-size: 28px;
+  }
+
+@media (max-width: 700px){
+    .toolItem {
+        width: 25%;
+        height: 40px;
+        font-size: 10px;
+        padding: 10px 5px;
+    }
+    .toolItem svg {
+        font-size: 20px;
+    }
+    .tool-name {
+        font-size: 8px;
+        margin-left: 5px;
+    }
+}
+
+@media (min-width: 701px) and (max-width: 1023px){
+    .tool-name {
+        margin-left: 10px;
+    }
+    .toolItem svg {
+        margin-left: 10px;
+    }
+}
+

@@ -1,0 +1,95 @@
+.contact {
+    width: 100%;
+    background-color: #000;
+    color: white;
+}
+.contact-container {
+    width: 70%;
+    margin: 0 auto;
+    border-bottom: 1px solid white;
+    display: flex;
+}
+.left-contact {
+    width: 50%;
+    
+}
+.left-contact p {
+    width: 500px;
+    text-align: left;
+    line-height: 1.5;
+    padding: 30px 0;
+    color: #a7bcb9;
+}
+.right-contact {
+    width: 50%;
+    text-align: right;
+}
+.footer p {
+    color: #a7bcb9;
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.contact svg {
+    color: #a7bcb9;
+    font-size: 24px;
+    margin-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 700px){
+    .contact-container {
+        width: 90%;
+        display: block;
+        margin-left: 0;
+        margin: 0 auto;
+    }
+    .contact-container h3 {
+        text-align: center;
+    }
+    .left-contact {
+        width: 90%;
+        margin: 0 auto;
+        
+    }
+    .left-contact p {
+        margin: 0 auto;
+        width: 300px;
+        text-align: center;
+    }
+    .right-contact {
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 701px) and (max-width: 1023px){
+    .contact-container {
+        width: 90%;
+        display: block;
+        margin-left: 0;
+        margin: 0 auto;
+    }
+    .contact-container h3 {
+        text-align: center;
+    }
+    .left-contact {
+        width: 90%;
+        margin: 0 auto;
+        
+    }
+    .left-contact p {
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+    }
+    .right-contact {
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+}

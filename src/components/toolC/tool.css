@@ -1,0 +1,45 @@
+
+.tool {
+    width: 100%;
+    background-color: #000;
+    color: #FFFFFF;
+  }
+  
+  .tool h2 {
+    text-align: center;
+    padding-top: 80px;
+  }
+  
+  .tools-container {
+    width: 50%;
+    margin: 0px auto;
+    margin-top: 40px;
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 20px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #0d7377;
+  }
+  
+  @media (max-width: 700px) {
+    .tools-container {
+      width: 85%;
+      padding-top: 10px;
+    }
+  }
+
+  
+  @media (min-width: 701px) and (max-width: 1023px){
+      .tools-container {
+        width: 85%;
+      }
+  }
+
+  @media (min-width: 1024px){
+    .tools-container {
+      width: 80%;
+    }
+  }

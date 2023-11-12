@@ -1,0 +1,153 @@
+.header {
+    width:100%;
+    height: 80px;
+    background-color: #000;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    opacity: 0.3;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.logo:hover {
+    opacity: 1;
+}
+
+.header ul {
+    position: absolute;
+    display: flex;
+    color: #393e46;
+    top: 30px;
+    right: 30px;
+}
+
+.header li {
+    margin-left: 10px;
+    padding-right: 10px;
+}
+
+.header li a {
+    transition: .5s ease;
+    cursor: pointer;
+}
+
+.header a:hover {
+    color: #FFFFFF;
+}
+
+/* for burger menu */
+
+.menu {
+    display: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.menu span {
+    height: 5px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    z-index: 100;
+    transition: 1s ease;
+}
+
+.close span:nth-of-type(1) {
+    height: 5px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    transform: rotate(-45deg) translateY(15px) translateX(-3px);
+    z-index: 100;
+    transition: 1s ease;
+}
+
+.close span:nth-of-type(2) {
+    height: 5px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    opacity: 0;
+    z-index: 100;
+    transition: 1s ease;
+}
+
+.close span:nth-of-type(3) {
+    height: 5px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    transform: rotate(45deg) translateY(-14px) translateX(-3px);
+    z-index: 100;
+    transition: 1s ease;
+}
+
+@media (max-width: 700px){
+    .logo {
+        width: 30px;
+        height: 30px;
+    }
+    .menu {
+        display: flex;
+    }
+
+    .header ul.open {
+        top: -250px;
+    }
+    .header ul {
+        margin-bottom: 4px;
+        background-color: #062925;
+        top: 0;
+        left: 0;
+        height: 250px;
+        transition: 1s ease;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .header ul li {
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+        color: #fff;
+        margin: 0 auto;
+    }
+
+}
+
+@media (min-width: 701px) and (max-width: 1023px){
+    .logo {
+        width: 70px;
+        height: 70px;
+    }
+    .header ul li {
+        font-size: 18px;
+    }
+}
+  
+
+@media(min-width: 1024px){
+    .header ul li {
+        font-size: 24px;
+    }
+}
+  
+  
+  
+  
