@@ -51,12 +51,9 @@
     border-radius: 5px;
     font-size: 20px;
     cursor: pointer;
-
-  }
-
-  .right-item button a {
     color: #fff;
   }
+
 
   @media (max-width: 700px){
     .projects-container {
@@ -94,6 +91,7 @@
   
     .right-item button {
       padding: 10px 20px;
+      
     }
   }
 

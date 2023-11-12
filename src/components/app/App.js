@@ -29,7 +29,7 @@ function App() {
         overview: "The application fetches a list of movies from the Netflix API, offering users a diverse range of options to explore. Users can create an account and log in securely using Firebase Authentication. This adds a layer of personalization to the experience, allowing users to save their preferences and history. Once logged in, users can curate their own list of favorite movies, providing a tailored experience based on their interests. The application utilizes the Netflix API and Axios to fetch real-time data, ensuring that users have access to the latest content. The project is built using the Tailwind CSS framework, ensuring a visually appealing and responsive design that adapts to various devices and screen sizes. The website is hosted on GitHub Pages, making it easily accessible for users and prospective employers. The Netflix Clone project is a showcase of my ability to build a modern web application with a rich user interface and dynamic features. It demonstrates my skills in integrating external data sources through APIs and providing a personalized user experience through user authentication and data storage. The use of React, Tailwind CSS, and Firebase showcases my proficiency in modern web development technologies. You can explore the project's code on GitHub and access the deployed website on GitHub Pages, providing a comprehensive view of my work.",
         image: netflix,
         tools: ["React","React Hooks", "HTML", "CSS", "Tailwind", "Firebase", "Netflix API", "Axios", "GitHub"],
-        link: "https://yusifovnijat.github.io/netflix-clone/",
+        link: "https://netflix-clone-three-virid.vercel.app/",
         github: "https://github.com/YusifovNijat/netflix-clone/tree/main"
     },
     {
