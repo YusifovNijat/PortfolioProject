@@ -68,3 +68,13 @@
         font-size: 16px;
     }
 }
+
+@media (min-width: 1024px){
+    .info-pic {
+        width: 60%;
+        height: 500px;
+    }   
+    .info-pic img {
+        height: 500px
+    }
+}
